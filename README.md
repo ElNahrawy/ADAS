@@ -1,4 +1,8 @@
 # ADAS 
+<a target="_blank" href="https://colab.research.google.com/github/ElNahrawy/ADAS/blob/main/Demo.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+\
 ## __Project Description__
 One crucial aspect of safe driving is maintaining appropriate distance between the driver’s car and cars in front of it. Such behavior despite very important is not adapted by drivers enough. In this project we propose a smart system based on computer vision deep learning models, that detects different objects in unstructured roads environments while monitoring their distance from the used camera. This advanced driver assistant system alarms the driver when the intervehicle distance is below the safe distance.
 ![](https://github.com/ElNahrawy/ADAS/blob/main/images/3_out.png)
@@ -25,7 +29,7 @@ The system is built upon:
 * [Tiny YOLOv4 fine tuned on IDD](https://drive.google.com/file/d/1Ay5_Oh-8eZWZrfYG91bCmD37vwoyJkk-/view?usp=sharing)
 
 ## __Demo__
-To run a quick demo install requirements file then run the inference script on your image/video\
+To run a quick demo use the colab demo or install requirements file then run the inference script on your image/video\ 
 **Image**\
 `python inference_scripy.py -img -dir test.png`
 
