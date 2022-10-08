@@ -31,6 +31,7 @@ The system is built upon:
 
 ## __Demo__
 To run a quick demo use the colab demo or install requirements file then run the inference script on your image/video\ 
+
 **Image**\
 `python inference_scripy.py -img -dir test.png`
 
