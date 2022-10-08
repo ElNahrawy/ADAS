@@ -15,7 +15,7 @@ The system is built upon:
 
    Monocular depth estimation is used to measure the distance between the detected objects and the dashboard camera used.\
    We provide our own implementation and weights for [DenseDepth](https://github.com/ialhashim/DenseDepth) and [FastDepth](https://github.com/dwofk/fast-depth) trained on [NYU Depth Dataset V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)
-   ![Depth estimation results](images\depth_results.png)
+   ![Depth estimation results](https://github.com/ElNahrawy/ADAS/blob/main/images/depth_results.png)
 
 ## __Trained Models__
 * [DenseDepth Keras implementation](https://drive.google.com/file/d/1i_K86ZWAvmKYdUGwIAtiX3soDpMorxvT/view?usp=sharing)
@@ -34,7 +34,7 @@ To run a quick demo install requirements file then run the inference script on y
 
 To run this POC on any image/video follow these steps
 * Clone the repo \
-``` git clone ```
+``` git clone https://github.com/ElNahrawy/ADAS.git```
 * Download trained models into weights folder
 * Install the requirements file
 * Import MainClass and create an object with desired setup
