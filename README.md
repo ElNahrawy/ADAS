@@ -66,8 +66,8 @@ app = MainClass(max_depth = 10,
 
    On Image\
 ` 
-main.image_inference(source = 'dir', image_dir = 'test.jpg', scaling_factor = 0.8)
-main.visualize(store_image = False, apply_on_depth = False, scaling_factor = 0.8, show_image=True)
+main.image_inference(source = 'dir', image_dir = 'test.jpg', scaling_factor = 0.8)`
+`main.visualize(store_image = False, apply_on_depth = False, scaling_factor = 0.8, show_image=True)
 `
  \
 On video\
