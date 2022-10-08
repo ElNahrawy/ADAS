@@ -3,14 +3,14 @@
 One crucial aspect of safe driving is maintaining appropriate distance between the driver’s car and cars in front of it. Such behavior despite very important is not adapted by drivers enough. In this project we propose a smart system based on computer vision deep learning models, that detects different objects in unstructured roads environments while monitoring their distance from the used camera. This advanced driver assistant system alarms the driver when the intervehicle distance is below the safe distance.
 
 ## __System overview__
-![System diagram](images\system_diagram.png)
+![System diagram](https://github.com/ElNahrawy/ADAS/blob/main/images/system_diagram.png)
 
 The system is built upon:
 * __Object detection__
-    ![YOLO preview](images\yolo_preview.png)
+    ![YOLO preview](https://github.com/ElNahrawy/ADAS/blob/main/images/yolo_preview.png)
      To detect different objects on the road. YOLOv4 was fine tuned on [IDD dataset](https://idd.insaan.iiit.ac.in/) to acheive the best generalization results in unstructured roads such as in Egypt. \
     Fine-tuned model results
-    ![YOLO results](images\yolo_results.png)
+    ![YOLO results](https://github.com/ElNahrawy/ADAS/blob/main/images/yolo_results.png)
 * __Monocular depth estimation__
 
    Monocular depth estimation is used to measure the distance between the detected objects and the dashboard camera used.\
