@@ -1,6 +1,7 @@
 # ADAS 
 ## __Project Description__
 One crucial aspect of safe driving is maintaining appropriate distance between the driver’s car and cars in front of it. Such behavior despite very important is not adapted by drivers enough. In this project we propose a smart system based on computer vision deep learning models, that detects different objects in unstructured roads environments while monitoring their distance from the used camera. This advanced driver assistant system alarms the driver when the intervehicle distance is below the safe distance.
+![](https://github.com/ElNahrawy/ADAS/blob/main/images/3_out.png)
 
 ## __System overview__
 ![System diagram](https://github.com/ElNahrawy/ADAS/blob/main/images/system_diagram.png)
