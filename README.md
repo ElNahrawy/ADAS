@@ -30,7 +30,7 @@ The system is built upon:
 * [Tiny YOLOv4 fine tuned on IDD](https://drive.google.com/file/d/1Ay5_Oh-8eZWZrfYG91bCmD37vwoyJkk-/view?usp=sharing)
 
 ## __Demo__
-To run a quick demo use the colab demo or install requirements file then run the inference script on your image/video\ 
+To run a quick demo use the colab demo or install requirements file then run the inference script on your image/video
 
 **Image**\
 `python inference_scripy.py -img -dir test.png`
