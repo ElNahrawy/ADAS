@@ -9,7 +9,7 @@ The system is built upon:
 * __Object detection__
     ![YOLO preview](https://github.com/ElNahrawy/ADAS/blob/main/images/yolo_preview.png)
      To detect different objects on the road. YOLOv4 was fine tuned on [IDD dataset](https://idd.insaan.iiit.ac.in/) to acheive the best generalization results in unstructured roads such as in Egypt. \
-    Fine-tuned model results
+    Fine-tuned model results \
     ![YOLO results](https://github.com/ElNahrawy/ADAS/blob/main/images/yolo_results.png)
 * __Monocular depth estimation__
 
