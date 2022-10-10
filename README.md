@@ -72,11 +72,11 @@ app = MainClass(max_depth = 10,
 
    On Image\
 ` 
-main.image_inference(source = 'dir', image_dir = 'test.jpg', scaling_factor = 0.8)`\
-`main.visualize(store_image = False, apply_on_depth = False, scaling_factor = 0.8, show_image=True)
+app.image_inference(source = 'dir', image_dir = 'test.jpg', scaling_factor = 0.8)`\
+`app.visualize(store_image = False, apply_on_depth = False, scaling_factor = 0.8, show_image=True)
 `
  \
 On video\
-   `main.visualize_video(source = 'dir', dir = 'test.mp4', show_video=True, scaling_factor = 0.8, apply_on_depth = False, save_video=False) `
+   `app.visualize_video(source = 'dir', dir = 'test.mp4', show_video=True, scaling_factor = 0.8, apply_on_depth = False, save_video=False) `
 
 **For further details please read functions documentation supplied within the docstring.**
