@@ -60,7 +60,7 @@ app = MainClass(max_depth = 10,
 ```
 
 >   *__max_depth__*: maximun depth in the image, 10m for NYU depth v2 dataset, 80m for KITTI dataset\
-   *__use_ROI__*: limits alerms to a certain region of the image determined by the ROI points\
+   *__use_ROI__*: limits alarms to a certain region of the image determined by the ROI points\
    *__ROI_points__*: coordinates of the ROI(region of interest) that get set manually according to the dashboard camera in use\
    *__threshold__*: distance threshold for alarm\
    *__tiny_yolo__*: sets the use of the tiny YOLO model\
